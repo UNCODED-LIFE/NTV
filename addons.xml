@@ -1,1 +1,16 @@
-
+<addons>
+<addon id="plugin.video.NTV-Friends" name="NTV Friends Wizard" version="1.0.2" provider-name="Ryski">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Wizard containing Exclusive content For Our Supporters</summary>
+    <description lang="en">Thanks for your faith in US</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+  
+</addons>
