@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--suppress ALL -->
+<addons>
 <addon id="plugin.video.salts" version="100.0.126" name="Salts Mod" provider-name="tknorris Ryski Mod">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
@@ -32,7 +31,6 @@
 		</assets>
 	</extension>
 </addon>
-
 <addon id="plugin.video.NTV-Friends" name="NTV Friends Wizard" version="1.0.2" provider-name="Ryski">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
