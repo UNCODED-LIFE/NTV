@@ -1,18 +1,4 @@
 <addons>
-<addon id="plugin.video.NTV-Friends" name="NTV Friends Wizard" version="1.0.3" provider-name="Ryski">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Wizard containing Exclusive content For Our Supporters</summary>
-    <description lang="en">Thanks for your faith in US</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-  
   <!--suppress ALL -->
 <addon id="plugin.video.salts" version="100.0.126" name="Salts Mod" provider-name="tknorris Ryski Mod">
     <requires>
