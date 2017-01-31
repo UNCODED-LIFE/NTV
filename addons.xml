@@ -31,8 +31,7 @@
           <screenshot>resources/screenshots/screenshot5.png</screenshot>
 		</assets>
 	</extension>
-
-	<addon id="skin.refocus" version="10.0.1b" name="reFocus" provider-name="Jeroen Ryski Mod">
+<addon id="skin.refocus" version="10.0.1b" name="reFocus" provider-name="Jeroen Ryski Mod">
 	<requires>
 		<import addon="xbmc.gui" version="5.10.0"/>
 
