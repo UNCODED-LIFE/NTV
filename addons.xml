@@ -32,7 +32,7 @@
 		</assets>
 	</extension>
 </addon>
-	<addon id="skin.refocus" version="3.2.5a" name="reFocus" provider-name="Jeroen Ryski Mod">
+	<addon id="skin.refocus" version="10.0.1b" name="reFocus" provider-name="Jeroen Ryski Mod">
 	<requires>
 		<import addon="xbmc.gui" version="5.10.0"/>
 		<import addon="resource.images.studios.white" version="0.0.7"/>
