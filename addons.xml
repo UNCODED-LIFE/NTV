@@ -1,6 +1,6 @@
 <addons>
 <!--suppress ALL -->
-<addon id="plugin.video.salts" version="100.0.151" name="Salts MOD" provider-name="tknorris Ryski MOD">
+<addon id="plugin.video.salts" version="100.0.155" name="Salts Mod" provider-name="tknorris Ryski Mod">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
