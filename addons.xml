@@ -193,4 +193,18 @@
     <platform>all</platform>
   </extension>
 </addon>
+	<addon id="plugin.program.NTV-Vault" name="NTV-Vault" version="1.0.0" provider-name="Ryski">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Notorious-TV Vault</summary>
+    <description lang="en">Here you will find builds that we are not currently developing. These come with absolutely NO support</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+	
 </addons>	
