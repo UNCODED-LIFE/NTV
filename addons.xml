@@ -180,7 +180,7 @@
 </addon>
 	
 	
-<addon id="plugin.program.NTV-Wizard" name="NTV-Wizard" version="1.0.4" provider-name="Ryski">
+<addon id="plugin.program.NTV-Wizard" name="NTV-Wizard" version="1.0.5" provider-name="Ryski">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -193,4 +193,3 @@
     <platform>all</platform>
   </extension>
 </addon>
-</addons>
