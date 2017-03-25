@@ -1,17 +1,17 @@
 <addons>
 <!--suppress ALL -->
-<addon id="plugin.video.salts" version="100.0.166" name="Salts Mod" provider-name="tknorris Ryski MOD">
+<addon id="plugin.video.salts" version="101.0.166" name="Salts Mod" provider-name="tknorris Ryski Mod">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
         <import addon="script.module.myconnpy" version="1.1.6" />
-        <import addon="script.module.tknorris.shared" version="0.0.12"/>
+        <import addon="script.module.tknorris.shared" version="0.0.19"/>
         <import addon="script.module.image_cache" version="0.0.1" optional="true"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
-     <extension point="xbmc.pass" library="service.py" start="startup"/>
+     <extension point="xbmc.service" library="service.py" start="startup"/>
     <extension point="xbmc.addon.metadata">
         <summary>Stream video from many difference sources</summary>
         <description>This addon uses trakt.tv for most show and movie meta data and uses a variety of websites for hoster sources
