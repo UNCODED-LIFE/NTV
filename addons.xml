@@ -145,7 +145,7 @@
   </extension>
 </addon>
 	
-<addon id="skin.fuse.neue" version="0.9.30R" name="(fuse)neue" provider-name="jurialmunkey Ryski Mod">
+<addon id="skin.fuse.neue" version="0.9.31R" name="(fuse)neue" provider-name="jurialmunkey Ryski Mod">
     <requires>
         <import addon="xbmc.gui" version="5.12.0"/>
         <import addon="script.skinshortcuts" version="0.4.0"/>
