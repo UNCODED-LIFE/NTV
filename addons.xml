@@ -35,7 +35,7 @@
 	
 <addon
   id="skin.hybrid.dev"
-  version="100.0.0"
+  version="100.0.10"
   name="Raptor Hybrid"
   provider-name="Mudislander - SchisM Mod">
   <requires>
