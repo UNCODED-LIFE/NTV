@@ -1,4 +1,4 @@
-addons
+<addons>
 <!--suppress ALL -->
 <addon id="plugin.video.salts" version="102.0.171" name="Salts Mod 171" provider-name="tknorris Ryski Mod">
     <requires>
