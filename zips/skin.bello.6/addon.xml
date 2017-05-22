@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.bello.6" version="106.0.0" name="Bello 6" provider-name="Nessus, Ryski Mod, Eric Wright">
+<addon id="skin.bello.6" version="106.0.1" name="Bello 6" provider-name="Nessus, Ryski Mod, Eric Wright">
   <requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 		<import addon="script.skinshortcuts" version="1.0.17"/>
