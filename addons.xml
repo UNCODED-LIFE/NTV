@@ -285,7 +285,7 @@
     </extension>
 </addon>
 		
-	<addon id="plugin.program.NTV-KryptonWiz" name="NTV-KryptonWiz" version="1.0.9" provider-name="Ryski">
+	<addon id="plugin.program.NTV-KryptonWiz" name="NTV-KryptonWiz" version="1.0.6" provider-name="Ryski">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
