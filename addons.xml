@@ -35,7 +35,7 @@
 	</extension>
 </addon>
 	
-	<addon id="skin.fuse.neue" version="101.1.0R" name="(fuse)neue" provider-name="jurialmunkey, Ryski Mod, Eric Wright">
+	<addon id="skin.fuse.neue" version="101.10.1" name="(fuse)neue" provider-name="jurialmunkey, Ryski Mod, Eric Wright">
     <requires>
         <import addon="xbmc.gui" version="5.12.0"/>
         <import addon="script.skinshortcuts" version="0.4.0"/>
