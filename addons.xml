@@ -35,7 +35,7 @@
 	</extension>
 </addon>
 	
-<addon id="plugin.video.exodus" version="103.1.16" name="Exodus mod .16" provider-name="Exodus, Ryski Mod">
+<addon id="plugin.video.exodus" version="104.1.16" name="Exodus Mod .16" provider-name="Exodus,Ryski Mod">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.exodus" version="1.0.0" />
