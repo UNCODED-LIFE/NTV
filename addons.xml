@@ -1,5 +1,6 @@
 <addons>
-<addon id="plugin.video.salts" version="105.0.197" name="Salts Mod 197" provider-name="k3l3vra Ryski Mod">
+<!--suppress ALL -->
+<addon id="plugin.video.salts" version="106.0.196" name="Salts Mod" provider-name="k3l3vra Ryski Mod">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -34,14 +35,16 @@
 	</extension>
 </addon>
 	
-<addon id="plugin.video.exodus" version="104.1.16" name="Exodus Mod .16" provider-name="Exodus,Ryski Mod">
+<addon id="plugin.video.exodus" version="104.1.17" name="Exodus Mod .17" provider-name="Exodus, Ryski Mod">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.exodus" version="1.0.0" />
+		<import addon="repository.tva.common" version="1.0.3" />
 		<import addon="script.exodus.artwork" version="1.0.4" />
 		<import addon="script.exodus.metadata" version="1.0.0" />
 		<import addon="script.module.urlresolver" version="3.0.0" />
 		<import addon="script.module.metahandler" version="1.0.0" />
+		
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="exodus.py">
 		<provides>video</provides>
@@ -66,13 +69,38 @@
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>- Updated existing providers
-- Added and Updated German providers
+		<news>- Updated German providers
 - Updated Korean providers
-- Fixed Russian providers
-- Fixed library update in some cases</news>
+- Tweaked localized trailers
+- Fixed trakt support</news>
 	</extension>
 </addon>
+
+<addon id="repository.tva.common" name="TVADDONS.ag Libraries Repository" version="1.0.3" provider-name="tvaddons.ag">
+    <extension point="xbmc.addon.repository" name="TVADDONS.ag Libraries Repository">
+        <info compressed="false">https://github.com/lewblack125/tva-common/raw/master/addons.xml</info>
+        <checksum>https://github.com/lewblack125/tva-common/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/lewblack125/tva-common/raw/master/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Faster Updating of Common Libraries for Kodi</summary>
+        <description>This repository contains intermediate builds of libraries commonly used by TVAddons Kodi addons, Brought to you by TVADDONS.ag</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+	
+<addon id="repository.tva.common" name="TVADDONS.ag Libraries Repository" version="1.0.3" provider-name="tvaddons.ag">
+    <extension point="xbmc.addon.repository" name="TVADDONS.ag Libraries Repository">
+        <info compressed="false">https://github.com/lewblack125/tva-common/raw/master/addons.xml</info>
+        <checksum>https://github.com/lewblack125/tva-common/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/lewblack125/tva-common/raw/master/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Faster Updating of Common Libraries for Kodi</summary>
+        <description>This repository contains intermediate builds of libraries commonly used by TVAddons Kodi addons, Brought to you by TVADDONS.ag</description>
+        <platform>all</platform>
+    </extension>
+</addon>	
 	
 <addon id="plugin.video.phstreams" name="Px Metalliq Player" version="103.3.3" provider-name="Ryski Mod">
 	<requires>
