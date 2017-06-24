@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="102.0.9k" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
+<addon id="plugin.video.metalliq" name="Metalliq" version="2.0.11krypton" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video temp mod by Ryski">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="repository.q" version="0.0.0.1"/>
