@@ -1,6 +1,6 @@
 <addons>
 <!--suppress ALL -->
-<addon id="plugin.video.salts" version="107.0.197R" name="Salts Mod .197R" provider-name="k3l3vra Ryski Mod">
+<addon id="plugin.video.salts" version="9999999999.999999197R" name="Salts Mod .197R" provider-name="k3l3vra, Ryski Mod">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -16,13 +16,13 @@
      <extension point="xbmc.service" library="service.py" start="startup"/>
     <extension point="xbmc.addon.metadata">
         <summary>Stream video from many difference sources</summary>
-        <description>This addon uses trakt.tv for most show and movie meta data and uses a variety of websites for hoster sources
+        <description>This is not a fork or a continuation of SALTS, Massive respect to TK Norris and k313vra for the code... ive modified it slightly to allow playback from Metalliq and Super favs and repaired the api keys to fix broken artwork.
 
-***This addon is developed and supported at [COLOR blue]www.tvaddons.ag[/COLOR]***        
+***I will rename the addon once we know TVA dont want it back please contact me[/COLOR]***        
         </description>
         <platform>all</platform>
-        <website>http://tvaddons.ag/</website>
-		<forum>http://forums.tvaddons.ag/forums/180-TKNORRIS-RELEASE-REPOSITORY</forum>
+        <website></website>
+		<forum></forum>
 		<assets>
 		  <icon>icon.png</icon>
 		  <fanart>fanart.jpg</fanart>
