@@ -1,4 +1,18 @@
 <addons>
+<addon id="plugin.program.NTV-KryptonWiz" name="NTV-KryptonWiz" version="1.6.0" provider-name="Ryski">
+  <requires>
+    	<import addon="xbmc.python" version="2.1.0"/>
+ </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Notorious-TV Wizard</summary>
+    <description lang="en">Thanks for your faith in US, If you need assistance come and find us on facebook</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+	
 <!--suppress ALL -->
 <addon id="plugin.video.salts" version="9999999999.999999198R" name="Salts Mod .198R" provider-name="k3l3vra, Ryski Mod">
     <requires>
@@ -263,19 +277,7 @@
 		
 	
 
-<addon id="plugin.program.NTV-KryptonWiz" name="NTV-KryptonWiz" version="1.6.0" provider-name="Ryski">
-  <requires>
-    	<import addon="xbmc.python" version="2.1.0"/>
- </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Notorious-TV Wizard</summary>
-    <description lang="en">Thanks for your faith in US, If you need assistance come and find us on facebook</description>
-    <platform>all</platform>
-  </extension>
-</addon>
+
 	
 	
 <addon id="skin.bello.6.nero" version="1.0.8" name="Bello 6 NTV Mod" provider-name="Nessus, eQUIV, iCanuck, Eric Wright, Ryski Mod">
