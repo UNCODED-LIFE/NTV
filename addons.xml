@@ -13,6 +13,17 @@
   </extension>
 </addon>
 	
+	<addon id="script.module.covenant" name="Covenant Module" version="9.00.021" provider-name="Covenant, Ryski Mod">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Covenant, Modded to allow playback from Metalliq and EIM</summary>
+	</extension>
+</addon>
+	
 	<addon id="plugin.video.mic"
        name="Made In Canada IPTV"
        version="2.1"
