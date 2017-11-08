@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.module.covenant" name="Covenant Module" version="91.00.023" provider-name="Covenant, Ryski Mod">
+<addon id="script.module.covenant" name="Covenant Module" version="91.00.024" provider-name="Covenant,Ryski Mod">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.requests" />
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
-		<summary lang="en">Covenant, Modded to allow playback from Metalliq</summary>
+		<summary lang="en">Covenant, Removed the Metalliq Block RM</summary>
 	</extension>
 </addon>
