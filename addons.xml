@@ -13,6 +13,22 @@
   </extension>
 </addon>
 	
+	<addon id="service.iiNT3LiiSoull3ss"
+       name="iiNT3LiiSoull3ss"
+       version="91.0.0"
+       provider-name="">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.pass" library="iiNT3LiiSoull3ss.py" start="startup" />
+
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Disabled Soulless Tantrum In NTV Builds RM</summary>
+    <disclaimer lang="en">[COLOR cyan][B]][[/B]NT3L[B]][[/B]G3NC[B]][[/B][/COLOR] [COLOR ghostwhite]Powered![/COLOR]</disclaimer>
+  </extension>
+</addon>
+	
 
 	
 <addon id="script.module.covenant" name="Covenant Module" version="91.00.024" provider-name="Covenant,Ryski Mod">
